@@ -1,0 +1,256 @@
+:: StoryTitle
+Portugues- Aeropuerto
+
+
+:: StoryData
+{
+  "ifid": "3062F774-4518-4E56-91B2-137964EA8145",
+  "format": "Chapbook",
+  "format-version": "2.3.0",
+  "start": "Inicio",
+  "zoom": 1
+}
+
+
+:: Comprar um lanche {"position":"475,900","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+Você vai até a cafeteria.
+
+**Frases úteis:**  
+- "Quero um café e um sanduíche."  
+- "Aceitam cartão?"
+
+Você paga e se senta.
+
+![Tienda con gente](https://images.unsplash.com/photo-1677445317926-46d0e7645972?auto=format&fit=crop&w=400&q=80)
+
+
+* [[Ir ao portão 15]]
+
+
+:: Despachar bagagem {"position":"400,525","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+![Etiqueta de avión](https://images.unsplash.com/photo-1567748534085-467f8a8a475d?auto=format&fit=crop&w=400&q=80)
+
+**Atendente:** Quantas malas você tem?
+
+Você responde:  
+- "Tenho uma mala."  
+- "Duas malas."
+
+**Frases úteis:**  
+- "Esta mala vai para o porão."  
+- "A outra é bagagem de mão."
+
+* [[Ir para o controle de segurança]]
+
+
+:: Embarcar no avião {"position":"350,1025","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+Você entra no avião e encontra seu assento.
+
+**Frases úteis:**  
+- "Este é o meu assento."  
+- "Com licença."
+
+Você está pronto para a aventura! 
+
+*Fim*
+
+
+
+:: Esperar o voo {"position":"400,775","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+Você está na sala de embarque. O voo ainda não foi anunciado.
+
+**Você ouve no alto-falante:**  
+"Senhores passageiros do voo 1234 para São Paulo, dirijam-se ao portão 15."
+
+* [[Ir ao portão 15]]
+* [[Comprar um lanche]]
+
+
+:: Fazer o check-in {"position":"475,400","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+Você se aproxima do balcão da companhia aérea. A atendente sorri.
+
+**Atendente:** Bom dia! Passaporte, por favor.
+
+Você entrega o passaporte.
+
+**Frases úteis:**  
+- "Aqui está meu passaporte."  
+- "Tenho uma mala para despachar."
+
+* [[Despachar bagagem]]
+* [[Voltar ao menu inicial->Start]]
+
+
+:: Inicio {"position":"600,275","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+
+Você chega ao aeroporto de Lisboa para começar sua viagem.
+
+O que você quer fazer primeiro?
+
+![Etiqueta de avión](https://images.unsplash.com/photo-1525207934214-58e69a8f8a3e?auto=format&fit=crop&w=400&q=80)
+
+
+* [[Fazer o check-in]]
+* [[Ir ao banheiro]]
+* [[Pedir informações]]
+
+
+:: Ir ao banheiro {"position":"600,400","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+
+Você procura o banheiro. Está perto da porta de embarque 12.
+
+**Frases úteis:**  
+- "Onde fica o banheiro?"  
+- "Preciso usar o banheiro."
+
+![Baño en el aeropuerto](https://images.unsplash.com/photo-1556504629-38ac9037f98d?auto=format&fit=crop&w=400&q=80)
+
+
+* [[Voltar ao menu inicial->Start]]
+
+
+:: Ir ao portão 15 {"position":"350,900","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+Você chega ao portão e mostra o bilhete.
+
+**Funcionária:** Tenha um bom voo!
+
+![Pasaporte de Canadá](https://images.unsplash.com/photo-1610563166156-e84c8c7240ff?auto=format&fit=crop&w=400&q=80)
+
+
+* [[Embarcar no avião]]
+
+
+:: Ir para o controle de segurança {"position":"400,650","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+Você mostra o cartão de embarque e passa pelo detector de metais.
+
+**Frases úteis:**  
+- "Aqui está meu cartão de embarque."  
+- "Posso passar?"
+
+* [[Esperar o voo]]
+* [[Voltar ao menu inicial->Start]]
+
+
+:: Pedir informações {"position":"725,400","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+Você vai até o balcão de informações.
+
+**Você diz:**  
+"Olá, pode me ajudar?"
+
+**Frases úteis:**  
+- "Onde fica o portão 20?"  
+- "Quanto tempo até o embarque?"
+
+* [[Receber ajuda]]
+* [[Voltar ao menu inicial->Start]]
+
+
+:: Receber ajuda {"position":"725,525","size":"100,100"}
+[css]
+article {
+  background-color: #add8e6;
+  color: #e91e63; /* rosa fuerte */
+  font-family: Georgia, serif;
+  padding: 20px;
+}
+[continued]
+
+**Funcionária:** Claro! O portão 20 fica logo à esquerda. Bom voo!
+
+Você agradece: "Muito obrigado!"
+
+* [[Ir para o controle de segurança]]
+
+
+:: Start {"position":"525,525","size":"100,100"}
+
